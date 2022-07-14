@@ -13,9 +13,9 @@
         /// <summary>
         /// Конструктор класса
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <param name="c"></param>
+        /// <param name="a">Сторона треугольника</param>
+        /// <param name="b">Сторона треугольника</param>
+        /// <param name="c">Сторона треугольника</param>
         /// <exception cref="ArgumentException">данное исключение генерируется, 
         /// если в метод для параметра передается некорректное значение</exception>
         /// <exception cref="ArgumentOutOfRangeException">данное исключение генерируется, 

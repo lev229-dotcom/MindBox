@@ -1,3 +1,3 @@
-select Product.Name as 'Название продукта', Category.Name as 'Название категории'
+select Product.Name as 'РќР°Р·РІР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р°', Category.Name as 'РќР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёРё'
 from [dbo].[ProductCategory] inner join  [dbo].[Product] on [Product_ID] = [ID_Product] 
 left join [dbo].[Category] on [Category_ID] =[ID_Category];
